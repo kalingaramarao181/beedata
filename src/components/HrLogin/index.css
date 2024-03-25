@@ -1,0 +1,61 @@
+.Hl-card1{
+    background-image: url("https://t3.ftcdn.net/jpg/03/99/24/82/360_F_399248286_Ogm0T8CFeauN4Hdn42FqWfsCE02dJBbX.jpg");
+    margin: 20px;
+    color:white;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.Ln-card1{
+    background-image: url("https://tipsmake.com/data/thumbs/beautiful-technology-background-thumb-VMxfTZndB.jpg");
+    margin: 20px;
+    color:white;
+}
+.Ln-img1{
+    height:550px;
+    width: 700px;
+    margin-right: 50px;
+}
+
+.hr-button1{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Ln-card21{
+    background-color: transparent;
+    width:600px;
+    margin: 100px;
+    padding-top: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.Ln-head1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 50px;
+    font-family: "roboto";
+ }
+.Ln-inputbox{
+    height:50px;
+    width:400px;
+    border-radius: 5px;
+    background-color:white;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+label{
+    color: white;
+    margin-bottom: 5px;
+}

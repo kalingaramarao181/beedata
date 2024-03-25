@@ -1,0 +1,165 @@
+.Hre-head1{
+   font-size: 45px;
+   font-family: "roboto";
+   font-weight: bold;
+   margin-top: 20px;
+   text-align: center;
+   margin-bottom: 20px;
+}
+.Hre-button1{
+    background-color:#0088cc;
+    height: 70px;
+    width: 220px;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: 0 2px 8px 0 rgba(8, 7, 7, 0.2), 0 4px 20px 0 rgba(24, 16, 16, 0.555);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.Hre-card1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+}
+.Hre-span1{
+margin: 20px;
+}
+.Hre-table1{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 2px solid  black;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.attendance-container{
+    padding: 20px;
+}
+
+.table1{
+    border-bottom: 1px solid black;
+
+}
+td{
+    padding: 10px;
+}
+th{
+    margin-bottom: 10px;
+    text-align: left;
+    background-color: #D8D7F1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.checkbox-ele{
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+}
+
+.selection-input{
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.att-table-container{
+    display: flex;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.emp-list-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.emp-list-item{
+    width: 140px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(9, 141, 141);
+    box-shadow: 0 2px 8px 0 rgba(8, 7, 7, 0.2), 0 4px 20px 0 rgba(45, 30, 30, 0.555);
+    cursor: pointer;
+}
+
+.emp-list-name{
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.emp-list-item-btn{
+    background-color: transparent;
+    border: none;
+}
+.db-item-name1{
+    width: 120px
+}
+
+.emp-data-view-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.emp-data-view-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.emp-view-data-table{
+    padding: 20px;
+}
+
+.emp-work-hrs-container{
+    padding: 10px;
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.work-data-name{
+    color:rgba(24, 16, 16, 0.555);
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.work-data-value{
+    color:black;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+}
+.tables{
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+}
+
+.emp-bt-status-name{
+    color:rgb(9, 141, 141);
+    font-family: "Roboto";
+    font-size: 30px;
+    margin-top: 30px;
+}

@@ -1,0 +1,529 @@
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #013b6b;
+    margin-top: 10px;
+    width: 100vw;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.nav-image{
+    height: 60px;
+    width: 160px;
+    margin: 0px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.nav-items{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.preofile-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.profile-logo{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+}
+.profile-text{
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-item{
+    margin-right: 15px;
+}
+.nav-button{
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    position: relative;
+    display: inline-block;
+}
+.nav-button:hover {
+    box-shadow: inset 80px 50px 0 0 #1a4569;
+    font-weight: bold;
+  }
+.nav-products{
+    display: none;
+}
+.nav-button:hover .nav-products{
+    display: block;
+    position:absolute;
+    background-color: azure;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.nav-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/*Products*/
+
+.products-container{
+    background-color: #f9f9f9;
+    min-width: 160px;
+    padding: 12px 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .products-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-type: none;
+    margin-left: 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: #013b6b;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .products-card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #013b6b;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+
+  /*product item */
+
+.product-list-item{
+    list-style-type: none;
+    margin-bottom: 5px;
+
+}
+.product-item-button{
+    background-color: #99a8a4;
+    color: black;
+    font-size: 24px;
+    border: none;
+    padding: 15px;
+    width: 300px
+}
+.product-item-button:hover{
+    background-color: white;
+}
+
+/*products*/
+
+.products-card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #013b6b;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 70vw;
+  }
+
+  /*products card item */
+
+  .product-item{
+    background-color: #99a8a4;
+    border-radius: 10px;
+    margin: 5px;
+    list-style-type: none;
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.product-item-link{
+    color: rgb(8, 1, 1);
+    text-decoration: none;
+    
+
+}
+
+.product-item:hover{
+    color: white;
+    background-size: cover;
+    background-color:#0088cc;    
+    transition: .5s;
+}
+.product-head-1{
+    font-size: 28px;
+    color: white;
+}
+.product-head-1:hover{
+    
+    color: rgb(32, 32, 32);
+}
+.product-desc-1{
+    font-size: 18px;
+    color: white;
+}
+
+/*HR CLOUD INFORMATION */
+
+.hrcloud-d-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #013b6b;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    width: 70vw;
+  }
+
+.hrcloud-d-card-container{
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.hrcloud-d-image{
+    height: 160px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+.hrcloud-d-head{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+.hrcloud-d-desc1{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    width: 300px;
+    align-self: flex-start;
+}
+
+.hrcloud-d-button{
+    border: none;
+    text-decoration: underline;
+    font-size: 24px;
+    color: white;
+    background-color: transparent;
+}
+
+.hrcloud-d-name-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 280px;
+}
+
+.hrcloud-d-item-container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    border: 1px solid #d8d4d9;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.hrcloud-d-item-icon{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background-color: #021a63;
+    border-radius: 10px;
+    text-align: left;
+    
+}
+
+.hrc-d-item-link{
+    text-decoration: none;
+}
+
+
+.hrcloud-d-name{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.hrcloud-d-name-desc{
+    font-size:14px;
+    color: white;
+    margin-top: 10px;
+}
+
+/* IT CLOUD INFORMATION */
+
+.hrcloud-d-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #013b6b;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    width: 70vw;
+  }
+
+.hrcloud-d-card-container{
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.hrcloud-d-image-1{
+    height: 160px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+.hrcloud-d-head{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+.hrcloud-d-desc{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    width: 300px;
+}
+
+.hrcloud-d-button{
+    border: none;
+    text-decoration: underline;
+    font-size: 24px;
+    color: white;
+    background-color: transparent;
+}
+
+.hrcloud-d-item-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border: 1px solid #d8d4d9;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.hrcloud-d-item-icon{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background-color: #021a63;
+    border-radius: 10px;
+    text-align: left;
+    
+}
+
+.hrcloud-d-name{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.hrcloud-d-name-desc{
+    font-size:14px;
+    color: white;
+    margin-top: 10px;
+}
+
+/*FINANCE CLOUD INFORMATION */
+
+.hrcloud-d-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #013b6b;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    width: 70vw;
+  }
+
+.hrcloud-d-card-container{
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.hrcloud-d-image{
+    height: 160px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+.hrcloud-d-head{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+.hrcloud-d-desc{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    width: 300px;
+}
+
+.hrcloud-d-button{
+    border: none;
+    text-decoration: underline;
+    font-size: 24px;
+    color: white;
+    background-color: transparent;
+}
+
+.hrcloud-d-item-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border: 1px solid #d8d4d9;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.hrcloud-d-item-icon{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background-color: #021a63;
+    border-radius: 10px;
+    text-align: left;
+    
+}
+
+.hrcloud-d-name{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.hrcloud-d-name-desc{
+    font-size:14px;
+    color: white;
+    margin-top: 10px;
+}
+
+.logout-button{
+    border: none;
+    text-align: center;
+    width: 110px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    background-color: #0542a3;
+    margin-bottom: 15px;
+}
+
+.login-button{
+    border: none;
+    text-align: center;
+    width: 110px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    background-color: #0542a3;
+    margin-bottom: 15px;
+    
+}
+
+.hiden-page-button{
+    background-color: transparent;
+    border: none;
+    
+}
+
+.hr-login-button{
+    background-color: #1a4eb8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.hr-login-button1{
+    background-color: #847B3D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.hr-login-button:hover{
+    background-color: #316ade;
+}
+
+.card {
+    opacity: 0;
+    transition: opacity 0.5s ease; /* Specify the property, duration, and timing function */
+  }
+  
+.card.show {
+    opacity: 1;
+}

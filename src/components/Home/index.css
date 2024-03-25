@@ -1,0 +1,311 @@
+.my-stable-container {
+    position: relative;
+  }
+
+.head1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.card1{
+    background-color:rgb(70, 10, 126);
+    margin: 20px;
+}
+.card21{
+    background-color: transparent;
+    width:500px;
+    margin: 90px;
+    padding-top: 26px;
+
+}
+.para2{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: "roboto";
+}
+.inputbox{
+    height:50px;
+    width:400px;
+    border-radius: 5px;
+    background-color:darkgrey;
+    color: white;
+    margin-top: 5px;
+    
+}
+.button1{
+    margin-top: 10px;
+    padding: 10px;
+    width:400px;
+    border-color: yellow;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.para3{
+    font-size: 11px;
+    padding-top: 5px;
+}
+.img1{
+    height:600px;
+    width: 500px;
+}
+.card5{
+        padding-top: 40px;
+        font-family: "roboto";
+}
+.para55{
+    font-size: 18px;
+    text-align: center;
+    font-family: "roboto";
+     
+}
+.head5{
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 30px;
+    text-align: center;
+}
+.card7{
+    background-color: transparent;
+   padding-left: 60px;
+}
+.card71{
+    background-color: transparent;
+    padding-left: 50px;
+}
+.img3{
+    height:40px;
+   margin: 10px;
+
+}
+.card8{
+    background-color:rgb(90, 25, 151);
+    width:350px;
+    border-radius: 10px;
+   padding-left: 30px;
+  
+   
+    
+}
+.color{
+    color: white;
+}
+.para8{
+    font-size: 14px;
+   width: 300px;
+   margin: 10px;
+
+}
+
+.img5{
+    height:30px;
+    width:30px;
+ 
+    
+}
+.img10{
+    height:30px;
+    width:30px;
+   margin-left: -15px;
+    
+}
+.card9{
+    background-color:white;
+    width: 130px;
+    height: 45px;
+   padding-top: 10px;
+   border-radius: 10px;
+   margin: 10px;
+   padding-left: 5px;
+
+}
+.card91{
+    background-color:white;
+
+
+    width: 250px;
+    height: 45px;
+   padding-top: 10px;
+   padding-left: 20px;
+   border-radius: 10px;
+   margin: 10px;
+}
+.card10{
+    background-color:tr;
+    text-align: center;
+    padding-top: 20px;
+    margin: 30px;
+    width: 1180px;
+    margin-left: 100px;
+}
+.card11{
+    background-color:rgba(253, 248, 248, 0.993);
+    width: 170px;
+    height:40px;
+    justify-content: center;
+    padding-top: 5px;
+}
+.head10{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card92{
+    background-color:rgb(252, 160, 21);
+    width: 250px;
+    height: 45px;
+   padding-top: 10px;
+   padding-left: 40px;
+   border-radius: 10px;
+   margin: 10px;
+}
+.card93{
+    background-color:rgb(252, 160, 21);
+
+    width: 250px;
+    height: 45px;
+   padding-top: 10px;
+   padding-left: 40px;
+   border-radius: 10px;
+   margin: 10px;
+   margin-left: 50px;
+}
+.card12{
+    padding-left: 90px;
+    padding-top: 20px;
+}
+.card13{
+    --tw-bg-opacity: 1;
+    background-color:rgb(80 45 60 / var(--tw-bg-opacity));
+    color: white;
+    height:700px;
+    margin-top: 30px;
+}
+.head11{
+    font-size: 18px;
+}
+.head12{
+    font-size: 40px;
+    font-weight: bold;
+}
+.para10{
+    font-size: 16px;
+    width: 560px;
+    padding-top: 6px;
+    
+    
+}
+.span12{
+    color: rgb(230, 163, 19);
+    font-weight: bold;
+}
+.card14{
+    padding-top: 10px;
+}
+.para14{
+    width: 250px;
+    padding-left: 17px;
+    font-family: "roboto";
+    font-weight: bold;
+}
+
+.card15{
+    margin: 0px;
+    padding-top: 40px;
+}
+.card16{
+    padding: 130px;
+    
+}
+.img11{
+    height:700px;
+    width: 760px;
+    margin-left: -200px;
+}
+.bg4{
+}
+.bg6{
+    text-align: center;
+    height: 150px;
+}
+.head16{
+    font-size: 50px;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-family: "roboto";
+}
+.card110{
+    background-color:tr;
+    text-align: center;
+    padding-top: 20px;
+    margin: 30px;
+    width: 1180px;
+    margin-left: 100px;
+}
+.bg8{
+    text-align: center;
+    height: 150px;
+    padding-top: 40px;
+}
+.span10{
+    color: rgb(228, 187, 4);
+}
+.bg7{
+    background-color:rgb(70, 10, 126);
+    margin-top: 70px;
+}
+.card17{
+    color: white;
+    background-color:rgb(105, 40, 167);
+    height: 240px;
+    width: 400px;
+    margin: 40px;
+    padding: 30px;
+    border-radius: 10px;
+
+
+}
+
+.para17{
+    font-size: 14px;
+    width: 300px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.head17{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 17px;
+    text-decoration: underline;
+    color: rgb(235, 177, 17);
+}
+.card18{
+    color: white;
+    background-color:rgb(105, 40, 167);
+    height: 240px;
+    width: 800px;
+    margin: 40px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.para18{
+    font-size: 14px;
+    width: 500px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.head18{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 17px;
+    text-decoration: underline;
+    color: rgb(235, 177, 17);
+}
+.button10{
+    height:50px;
+    width:200px;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: gold;
+    border-radius: 10px;
+
+}

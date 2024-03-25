@@ -1,0 +1,102 @@
+.it-bg{
+    margin-left: -50px;
+}
+
+.it-bg1{
+    margin-left: -70px;
+    padding-top: 50px;
+}
+.it-bg2{
+    margin-left: 100px;
+    padding-top: 30px;
+}
+.it-bg3{
+    margin-left: 100px;
+    padding-top: 50px;
+
+    
+}
+.it-p1{
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-left: -10px;
+    
+}
+
+
+.it-p11{
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-left: 10px;
+    
+}
+.it-p2{
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-left: -28px;
+    width:150px;
+    
+
+}
+.it-p3{
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 10px;
+    width:150px;
+    
+
+}
+.it-bg10{
+    width:260px;
+    
+   
+}
+.it-bg11{
+    width:260px;
+    margin-left: 40px;
+   
+}
+.it-bg12{
+    margin: 60px;
+    margin-top: 80px;
+  justify-content: center;
+  padding-left: 40px;
+
+    
+}
+.it-img1{
+     margin-top: 20px;
+}
+
+.it-card5{
+    padding-top: 60px;
+    font-family: "roboto";
+}
+.it-para55{
+font-size: 18px;
+text-align: center;
+font-family: "roboto";
+padding-top: 5px;
+
+ 
+}
+.it-head5{
+font-size: 45px;
+font-weight: bold;
+padding-left: 30px;
+text-align: center;
+margin-top: 10px;
+}
+.it-head10{
+    font-size: 18px;
+    padding-top: 14px;
+}
+.it-para10{
+    font-size: 15px;
+    width:200px;
+    text-align: justify;
+    padding-top: 6px;
+}

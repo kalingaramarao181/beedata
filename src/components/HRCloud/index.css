@@ -1,0 +1,131 @@
+
+
+.hr-head1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.hr-card1{
+    background-color: #0088cc;
+    margin: 20px;
+    color:white;
+}
+.hr-card21{
+    background-color: transparent;
+    width:600px;
+    margin: 90px;
+    padding-top: 26px;
+
+}
+.hr-para2{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: "roboto";
+}
+.hr-inputbox{
+    height:50px;
+    width:400px;
+    border-radius: 5px;
+    background-color:darkgrey;
+    color: white;
+    margin-top: 5px;
+    
+}
+.hr-button1{
+    margin-top: 10px;
+    padding: 10px;
+    width:400px;
+    border-color: yellow;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.hr-para3{
+    font-size: 11px;
+    padding-top: 5px;
+}
+.hr-img1{
+    height:550px;
+    width: 700px;
+    
+}
+
+
+.hr-card5{
+    padding-top: 40px;
+    font-family: "roboto";
+}
+.hr-para55{
+font-size: 18px;
+text-align: center;
+font-family: "roboto";
+padding-top: 5px;
+
+ 
+}
+.hr-head5{
+font-size: 45px;
+font-weight: bold;
+padding-left: 30px;
+text-align: center;
+margin-top: 10px;
+}
+.hr-bg1{
+margin-left: 270px;
+margin-top: 50px;
+}
+.hr-p1{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-left: -10px;
+    
+}
+.hr-p2{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-left: -40px;
+    
+
+}
+.hr-card23{
+    background-color: rgb(204, 207, 207);
+    padding: 20px;
+    width:250px;
+    height:400px;
+    margin: 20px;
+   
+}
+.hr-card24{
+    background-color: rgb(204, 207, 207);
+    padding: 20px;
+    width:250px;
+    padding-right:20px;
+    margin: 20px;
+    height:400px;
+  
+   
+}
+.hr-head20{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 15px;
+    
+}
+.hr-para20{
+    font-size: 19px;
+    width: 200px;
+    height:180px;
+}
+.hr-head21{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(252, 35, 35);
+    padding-top: 30px;
+}
+.hr-bg10{
+    margin: 30px;
+    justify-content: center;
+}

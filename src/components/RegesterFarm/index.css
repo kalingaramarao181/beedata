@@ -1,0 +1,81 @@
+.Rt-bg1{
+  width:700px;
+  height:660px;
+  text-align: center;
+  margin-left: 350px;
+  padding-top: 50px;
+  border-radius: 30px;
+
+}
+.Rt-bg2{
+   background-image: url("https://images.squarespace-cdn.com/content/v1/60ec00ca94dc0f2fa186098b/dabcb6e7-0f67-4e46-9329-9e5176671037/lock+screen%402x.png?format=2500w");
+   width:100vw;
+   background-size: cover;
+   padding: 20px;
+  }
+
+.Rt-head1{
+   font-family: "Lora";
+   font-weight: bold;
+   color: white;
+
+}
+.Rt-input1{
+   height: 30px;
+   width: 450px;
+   border-radius: 6px;
+   margin-top: 10px;
+   padding: 5px;
+   background-color: transparent;
+   border: 1px solid  white;
+   color: white;
+}
+.Rt-textarea{
+   width: 450px;
+   border-radius: 6px;
+   margin-top: 10px;
+   padding: 5px;
+   background-color: transparent;
+   border: 1px solid  white;
+   color: white;
+}
+.Rt-button1{
+    height: 40px;
+    width: 450px;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 20px;
+   margin-top: 20px;
+   background-color: #0088cc;
+   font-weight: bold;
+   border: none;
+   color: white;
+}
+
+.Rt-button1-err{
+   height: 40px;
+   width: 450px;
+   padding: 10px;
+   border-radius: 6px;
+   font-size: 20px;
+  margin-top: 20px;
+  background-color: #0088cc;
+  font-weight: bold;
+  border: none;
+  color: red;
+  border: 1px solid red;
+}
+
+.Rt-para1{
+    color: white;
+    padding-right:100px;
+    padding-top: 6px;
+}
+.r-err-msg{
+   color: red;
+   font-size: 16px;
+   font-weight: 600;
+   align-self: flex-start;
+   margin: 0px;
+   text-align: left;
+}

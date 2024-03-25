@@ -1,0 +1,467 @@
+/* HR CLOUD PAGE A */
+.hr-cloud-container{
+    background-color: white;
+}
+
+.cp-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.cp-left-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.cp-title-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cloud-icon{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.cp-title{
+    font-size: 18px;
+    color: black;
+}
+
+.cp-heading{
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 20px;
+    width: 600px;
+}
+
+.cp-input-container{
+    border: 1px solid #ff7e00;
+    background-color: white;
+    width: 300px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.input-name{
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.input{
+    border: none;
+    height: 30px;
+    width: 280px;
+    padding: 3px;
+    background-color: transparent;
+    color: black;
+}
+
+.cp-btn{
+    border: 1px solid #c0eb7b;
+    font-size: 28px;
+    height: 55px;
+    width: 310px;
+    background-color: #ff7e00;
+    border:1px solid #755627;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.cp-description{
+    font-size: 10px;
+    font-weight: 400;
+    color: black;
+    margin-top: 2px;
+}
+
+.office-img{
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.rating-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 50px;
+}
+.list-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.rating-img{
+    height: 70px;
+    width: 150px;
+}
+.title{
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.descreption{
+    color: black;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+
+}
+ /* HR CLOUD PAGE B */
+
+ .pageb-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.heading1{
+    margin: 5px;
+    font-weight: bold;
+    font-size:  30px;
+
+}
+.heading1:hover{
+    color: black;
+}
+.title{
+    font-weight: 500;
+    font-size: 26px;
+}
+p{
+    font-weight: 500;
+}
+.cloud-card-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    list-style-type: none;
+    width: 100%;
+    max-width: 1120px;
+    background-color: gray;
+    padding: 10px;
+}
+.cloud-card-marquee{
+    display: flex;
+    flex-direction: row;
+}
+.list-item1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #e0dcdc;
+    min-height: 300px;
+    min-width: 200px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+.card-heading{
+    font-size: 24px;
+    margin: 5px;
+    min-height: 40px;
+}
+.card-content{
+    font-size: 15px;
+    margin: 5px;
+    min-height: 90px;
+}
+.card-button{
+    text-decoration: underline;
+    font-size: 24px;
+}
+.page-c-container{
+    background-color: #e8effc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+    padding: 20px;
+}
+
+.span-el{
+    font-size: 34px;
+    color: #1a4569;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.page-c-part1{
+    width: 30vw;
+}
+
+.page-c-head1{
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.page-c-head2{
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.page-c-content{
+    font-weight: 500;
+}
+
+.page-c-about{
+    font-size: 34;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.page-c-about:hover{
+    text-decoration: none;
+}
+.global-image{
+    height: 400px;
+    width: 600px;
+    border-radius: 5px;
+}
+
+.cloud-page-d-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: radial-gradient(#dddaf7, #7e77b5, #5d55a6);
+}
+.cloud-page-nav{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-image: radial-gradient(#7e73e6, #4b3ec7, #1d1378);
+    margin-top: 0px;
+    padding-top: 5px;
+}
+.cloud-page-nav-item{
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    width: 30vw;
+    text-align: center;
+    cursor: pointer;
+}
+.cloud-page-nav-item:hover{
+    background-image: radial-gradient( #7e77b5, #5d55a6);
+    font-weight: bold;
+}
+.cp-nav-button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    width: 30vw;
+    text-align: center;
+    cursor: pointer;
+}
+.cp-nav-button:hover{
+    background-image: radial-gradient( #7e77b5, #5d55a6);
+    font-weight: bold;
+}
+.ob-page-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 70vh;
+    padding: 20px;
+    background-color: transparent;
+    align-items: center;
+}
+
+.ob-page-part1{
+    width: 30vw;
+}
+
+.ob-page-head1{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.ob-page-content{
+    font-weight: 500;
+}
+
+.page-c-about{
+    font-size: 34;
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
+}
+.page-c-about:hover{
+    text-decoration: none;
+}
+.onboarding-image{
+    height: 400px;
+    width: 600px;
+    border-radius: 5px;
+}
+
+.pageb-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.title2{
+    margin: 5px;
+    font-weight: bold;
+    font-size:  30px;
+
+}
+.title2:hover{
+    color: black;
+}
+.title{
+    font-weight: 500;
+    font-size: 26px;
+}
+p{
+    font-weight: 500;
+}
+
+.hr-card-container{
+    margin-top: 1px solid #d4f77c;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.hr-card-items-container{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 30px;
+}
+.hr-bottom-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #cccaca;
+    width:70vw;
+    background-color: white;
+    padding: 30px;
+}
+.hr-bottom-icon{
+    height: 80px;
+    width: 80px;
+}
+.hr-bottom2-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #cccaca;
+    width:70vw;
+    background-color: white;
+    padding: 30px;
+}
+.hr-bottom3-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:70vw;
+    background-color: white;
+}
+.analytics-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border:1px solid #cccaca;
+    width: 300px;
+    margin-right: 10px;
+}
+.analytics-icon{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.analytics-name{
+    margin: 0px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.emp-group-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.group-img{
+    margin-top: 20px;
+    height: 80px;
+    width: 160px;
+}
+.ending-head{
+    font-size: 20px;
+}
+.ending-content{
+    font-size: 18px;
+    margin-top: 0px;
+}
+.hrcloud-card-list-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0dcdc;
+    padding: 10px;
+    background-color: white;
+    list-style-type: none;
+}
+.hrcard-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+.hrcloud-card-heading{
+    font-size: 18px;
+}
