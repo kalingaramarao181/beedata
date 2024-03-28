@@ -45,7 +45,7 @@ const ITCloud = () => {
               </Col>
             </div>
             <div class="embed-responsive embed-responsive-16by9" className='it-bg2'>
-              <iframe title='head' style={{ height: "400px", width: "600px" }} class="embed-responsive-item" src="https://rippling.imgix.net/images/ITCloud-DeviceOnboarding_enUS.mp4" allowfullscreen></iframe>
+              <iframe title='head' style={{ height: "400px", width: "600px" }} class="embed-responsive-item" src="httpss://rippling.imgix.net/images/ITCloud-DeviceOnboarding_enUS.mp4" allowfullscreen></iframe>
             </div>
             <div className='it-bg3'>
               <Col xs={6} md={4}>

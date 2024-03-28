@@ -19,6 +19,7 @@ import EmployeAttendance from './components/EmployeAttendance';
 import EmployeRegister from './components/EmployeRegester';
 import ITCloud from './components/ITCloud';
 import ConfirmationForm from './components/CandidateConformationFarm';
+import Chatbot from './components/ChatBot';
 // import FileUploadForm from './components/FileUploadFarm';
 
 
@@ -28,6 +29,7 @@ const  App = () => {
     <Header />
         <Switch>
           <Route path="/" exact component={Home} />
+          <Route path="/PLATFORM" exact component={Home} />
           <Route path="/HRCloud" exact component={HRCloud} />
           <Route path="/Recruiting" exact component={Recruiting} />
           <Route path="/Regester" exact component={Register} />
@@ -43,7 +45,9 @@ const  App = () => {
           <ProtectedRoute path="/empregester" exact component={EmployeRegister} />
           <ProtectedRoute path="/empattendance" exact component={EmployeAttendance} />
           <Route path="/candidate-conformation-farm" exact component={ConfirmationForm} />
+          <Route path="/chatbot" exact component={Chatbot} />
           {/* <Route path="/profile" exact component={FileUploadForm} /> */}
+          
         </Switch>
     </BrowserRouter>
     )

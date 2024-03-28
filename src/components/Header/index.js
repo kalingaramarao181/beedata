@@ -56,7 +56,7 @@ const productCardsList = [
         uniqueId: "PLATFORM",
         productName: "Platform",
         content: "Manage & Automate The employe Lifecycle",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6oSPErgzGrqrbTpEFqWMB-bI0vtvZi8nw_Q&usqp=CAU",
+        image: "httpss://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6oSPErgzGrqrbTpEFqWMB-bI0vtvZi8nw_Q&usqp=CAU",
     },
     
     {
@@ -466,7 +466,7 @@ export default withRouter(Header)
 
 /*<Link to="/Login">
     <div className="preofile-container">
-        <img className="profile-logo" src="https://cdn1.iconfinder.com/data/icons/bokbokstars-121-classic-stock-icons-1/512/person-man.png" alt="user" />
+        <img className="profile-logo" src="httpss://cdn1.iconfinder.com/data/icons/bokbokstars-121-classic-stock-icons-1/512/person-man.png" alt="user" />
         <label className="profile-text">Login</label>
     </div>
 </Link>*/

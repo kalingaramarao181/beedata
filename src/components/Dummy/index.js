@@ -7,7 +7,7 @@ function Dummy() {
 
     const handleEmployeeSubmit = async () => {
         try {
-            const response = await axios.post('http://localhost:3001/employee', {
+            const response = await axios.post('http://74.208.28.169:3001/employee', {
                 employee: employeeId,
                 status: status,
             });

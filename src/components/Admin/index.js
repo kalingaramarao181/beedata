@@ -26,10 +26,10 @@ const Admin = () => {
   const [emailData, setEmailData] = useState({to: '', name:"", subject: '', body: ''});
   const [isPopupOpen, setPopupOpen] = useState(false);
   const [conErr, setConErr] = useState()
-  const [demoData, setDemoData] = useState()
-  const [dataView, setDataView] = useState("APPLICATIONS")
   const token = Cookies.get("jwt_token");
   const loginStatus = Cookies.get("login_status")
+  const dataViewTab = localStorage.getItem("dataViewTab")
+  let dataView = dataViewTab
 
   //GET USER DATA
   useEffect(() => {
@@ -221,8 +221,9 @@ useEffect(() => {
   const onClickAddToAcceptSub = async (id) => {
     if (intCheckboxStatus.isChecked){
       const accesscode = token
+      const accept = ""
     const {name, position, experience, location, salary, email, phoneno, about, address} = offDataDB
-    await axios.post("http://74.208.28.169:5000/offeracpdata" , {accesscode, name, position, experience, location, salary, email, phoneno, about, address})
+    await axios.post("http://74.208.28.169:5000/offeracpdata" , {accesscode, name, position, experience, location, salary, email, phoneno, about, address, accept})
     .then(res => {
       alert("Successfully Added")
       window.location.reload()
@@ -319,7 +320,7 @@ useEffect(() => {
 
   //DISPLAY USER DATA FROM DATABASE
   const displayUserData = () => {
-    if (dataView === "APPLICATIONS"){
+    if (dataView === "APPLICATIONS" || dataView === ""){
       return (
         <>
         {userData.map(user => (
@@ -343,7 +344,7 @@ useEffect(() => {
     return (
       <>
       {intData.map(user => (
-            <tr className="table1">
+            <tr key={user.id} className="table1">
               <td><button type="button" className="edit-button-check" onClick={e => onClickAddToAccept(user.id)}><input onChange={e => setIntCheckboxStatus({isChecked:e.target.checked,userId:user.id})} className="checkbox-ele" type="checkbox"/></button></td>
               <td className="db-item-name">{user.name}</td>
               <td className="db-item-name">{user.position}</td>
@@ -446,11 +447,24 @@ useEffect(() => {
             </Link>
             </div>
         </div>
+        
         <div className="data-view-container">
-            <button onClick={() => setDataView("APPLICATIONS")} className="data-view-btn" type="button">Applications<span className="data-count">{userData.length}</span></button>
-            <button onClick={() => setDataView("INTERVIEW")} className="data-view-btn" type="button">Interview<span className="data-count">{intData.length}</span></button>
-            <button onClick={() => setDataView("OFFER")} className="data-view-btn" type="button">Offer<span className="data-count">{offData.length}</span></button>
-            <button onClick={() => setDataView("ONBOARDING")} className="data-view-btn" type="button">On Boarding<span className="data-count">{onboardingData.length}</span></button>
+            <button onClick={() => {
+              localStorage.setItem("dataViewTab", "APPLICATIONS")
+              window.location.reload()
+            }} className="data-view-btn" type="button">Applications<span className="data-count">{userData.length}</span></button>
+            <button onClick={() => {
+              localStorage.setItem("dataViewTab", "INTERVIEW")
+              window.location.reload()
+              }} className="data-view-btn" type="button">Interview<span className="data-count">{intData.length}</span></button>
+            <button onClick={() => {
+              localStorage.setItem("dataViewTab", "OFFER")
+              window.location.reload()
+          }} className="data-view-btn" type="button">Offer<span className="data-count">{offData.length}</span></button>
+            <button onClick={() => {
+              localStorage.setItem("dataViewTab", "ONBOARDING")
+              window.location.reload()
+              }} className="data-view-btn" type="button">On Boarding<span className="data-count">{onboardingData.length}</span></button>
           </div>
           <h1>{dataView}:</h1>
           <table className='admin-data'>
